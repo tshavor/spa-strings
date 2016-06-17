@@ -28,7 +28,7 @@ function getValues() {
 
 // at this point, the function reversal hold the value of the input string and creates a new variable "teststring"
 // and copies the contents or value of enteredString into testString.
-// testStringonly exsits in this function!
+// testString only exists in this function!
 function reversal(testString) {
 	var reversalArray= testString.toLowerCase().split('').reverse();
 	var reversalString = reversalArray.join('');
